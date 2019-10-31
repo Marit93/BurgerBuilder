@@ -6,7 +6,7 @@
 }
 
 .NavigationItem a {
-    color: #8f5c2c;
+    /* background-color: #8f5c2c; */
     text-decoration: none;
     width: 100%;
     box-sizing: border-box;
@@ -22,11 +22,12 @@
 @media (min-width: 500px) {
     .NavigationItem {
         margin: 0;
-        display: block;
+        display: flex;
         height: 100%;
+        width: auto;
         align-items: center;
     }
-    
+      
     .NavigationItem a {
         color: white;
         height: 100%;
@@ -40,4 +41,5 @@
         background-color: #8F5C2C;
         border-bottom: 4px solid #40a4c8;
         color: white;
-    }}
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './NavigationItems.css';
+import classes from './NavigationItems.css'
 import NavigationItem from './NavigationItem/NavigationItem';
 
 const navigationItems = (props) => (
@@ -8,5 +8,6 @@ const navigationItems = (props) => (
         <NavigationItem link="/">Checkout</NavigationItem>
     </ul>
 );
+
 
 export default navigationItems;
